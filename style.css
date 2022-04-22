@@ -1,0 +1,25 @@
+header {
+    display: flex;
+}
+
+#mettreitalic{
+    font-style: italic ;
+    color: rgb(179, 179, 179);
+}
+
+#expHeader {
+    background-color: aqua;
+    width: 100%;
+}
+
+#titreLogiciel {
+    padding-left: 35%;
+}
+
+#gauche {
+    ;
+}
+
+#droite {
+    padding-left: 35%;
+}
