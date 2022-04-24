@@ -14,12 +14,21 @@ header {
 
 #titreLogiciel {
     padding-left: 35%;
+    background-image: url("backgroundindex.jpg")
 }
 
 #gauche {
-    ;
 }
 
 #droite {
-    padding-left: 35%;
+    padding-left: 10%;
+}
+
+footer{
+    margin-top: 5cm;
+    background-color: rgb(126, 126, 126);
+}
+
+#HASANCINCI {
+    padding-top: 1cm;
 }
