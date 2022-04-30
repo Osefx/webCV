@@ -32,3 +32,32 @@ footer{
 #HASANCINCI {
     padding-top: 1cm;
 }
+
+
+#loisirs{
+    margin-top: 10px;
+    padding-left: 5%;
+}
+
+#sportpng
+{
+    height: 58%;
+    width: 58%;
+}
+
+#pdfbutton
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#cartevoyage
+{
+padding-left: 15%;
+}
+
+#portraithasan
+{
+    border: 5px solid rgb(187, 253, 255);
+}
