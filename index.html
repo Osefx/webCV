@@ -8,10 +8,12 @@
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="JS_cv.js"></script>
   <title>Index</title>
 </head>
 
 <body>
+
 
 
 <!-- NAV-->
@@ -41,14 +43,25 @@
 
 <!-- NAV-->
 
-    <div class="container" id="HASANCINCI">
-      <div class="row justify-content-md-center">
-        <div class="col-sm-4">
-          <p style="float: left;">
-            <img src="portraitHasan.jpg" height="100px" width="100px" class="rounded-circle" id="portraithasan">
-          </p>
-          
-        </div>
+<!-- BOUTON DARK MODE-->
+<br>
+<div id="btnDarkMode">
+
+<button type="button" class="btn btn-primary" onclick="myFunction()">dark mode</button>
+
+</div>
+<br>
+<!-- BOUTON DARK MODE-->
+
+
+<!-- PHOTO NOM PRENOM ADRESSE BOUTON-->
+<div class="container" id="HASANCINCI">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-4">
+      <p style="float: left;">
+        <img src="portraitHasan.jpg" height="100px" width="100px" class="rounded-circle" id="portraithasan">
+      </p>      
+  </div>
         <div class="col-md-auto">
           <h1 class="mb-0" id="droite">
             Hasan
@@ -63,19 +76,17 @@
               · 06.49.57.02.72 · <br>
               <a href="mailto:name@email.com">cinci57450@gmail.com</a>
             </p>
-            
           </div>
         </div>
-      </div>
-      
-    </div>
+  </div>
+</div>
+<br>
+<button type="button" class="btn btn-primary" id="pdfbutton">
+  <a href="https://drive.google.com/file/d/1RLmpglpeLqYv5jG1iKfCrxczbB_4-a_v/view?usp=sharing" download="newfilename" style="color: aliceblue;"">CV Hasan Cinci PDF</a>
+</button>
+<!-- PHOTO NOM PRENOM ADRESSE BOUTON-->
 
-    <button id="pdfbutton">
-      <a href="https://drive.google.com/file/d/1RLmpglpeLqYv5jG1iKfCrxczbB_4-a_v/view?usp=sharing" download="newfilename">CV Hasan Cinci PDF</a>
-    </button>
-
-
-    <hr class="m-10" />
+<hr class="m-10" />
 
 <div class="container">
 
@@ -147,7 +158,7 @@
 <div class="container" id="loisirs">
   <div class="row">
     <div class="col">
-            <div class="card" style="width: 18rem;" >
+            <div class="card text-dark bg-light mb-3" style="width: 18rem;" >
         <img src="voyages.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Voyages</h5>
@@ -157,7 +168,7 @@
       </div>
     </div>
     <div class="col">
-        <div class="card" style="width: 18rem;">
+        <div class="card text-dark bg-light mb-3" style="width: 18rem;">
           <img src="photographe.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Photographe</h5>
@@ -167,12 +178,12 @@
         </div>
     </div>
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="card text-dark bg-light mb-3" style="width: 18rem;">
         <img src="Sports-Transparent-File.png" class="card-img-top" alt="..." id="sportpng">
         <div class="card-body">
           <h5 class="card-title">Sports</h5>
-          <p class="card-text">Football, Basket-Ball, Randonnées.</p>
-          <a href="https://n3pix.fr" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text-text-primary">Football, Basket-Ball, Randonnées</p>
+          
         </div>
       </div>
   </div>
@@ -185,13 +196,12 @@
 </div>
 <br>
 
-
-
- <div>
+<br>
+<div>
   <footer>
     <a href="https://www.linkedin.com/in/hasan-cinci/" class="fa fa-linkedin"></a>
   </footer>
- </div>  
+</div>  
 
 
 

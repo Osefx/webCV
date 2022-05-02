@@ -7,14 +7,19 @@ header {
     color: rgb(179, 179, 179);
 }
 
-#expHeader {
-    background-color: rgb(181, 181, 181);
+/*#expHeader {
+    background-image: url("Workshops-Header-Background.png") ;
     width: 100%;
-}
+}*/
 
+#expHeader {
+    background-image: url("backgroundindex.jpg") ;
+    
+}
 #titreLogiciel {
     padding-left: 35%;
     background-image: url("backgroundindex.jpg")
+    
 }
 
 #gauche {}
@@ -31,6 +36,7 @@ footer {
 #HASANCINCI {
     padding-top: 1cm;
     transform: translateX(80deg);
+    border: #242f3f solid;
 }
 
 
@@ -42,6 +48,11 @@ footer {
 #sportpng {
     height: 58%;
     width: 58%;
+    margin-left: 1.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -68,8 +79,9 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     /*background-image: url("backgroundindex.jpg")*/
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: slidein;
+    
 }
 
 @keyframes slidein {
@@ -96,12 +108,7 @@ body {
     color: white;
     margin-left: 50px;
   }
-  
-  
-
-
-
-  
+ 
 /*FAKE CHARGEMENT*/
 
 /*body {
@@ -149,16 +156,17 @@ body {
     animation: loader-inner 2s infinite ease-in;
   }
   
-  @keyframes loader {
+  @keyframes loader 
+  {
     0%{transform: rotate(0deg);}
     25% { transform: rotate(180deg);}
     50% { transform: rotate(180deg);}
     75% { transform: rotate(360deg);}
     100% { transform: rotate(360deg);}
-    
   }
   
-  @keyframes loader-inner {
+ @keyframes loader-inner 
+  {
     0% { height: 0%;}
     25% { height: 0%;}
     50% { height: 100%;}
@@ -168,7 +176,8 @@ body {
 
   #chargementdebut
   {
-      animation: chargement1 3s forwards;
+      /*animation: chargement1 1s forwards;*/
+      animation: chargement1 1s forwards;
       /*animation-iteration-count: 1;*/
   }
 
@@ -177,4 +186,31 @@ body {
       /*50% {opacity: 50%;}*/
       100% {opacity: 0%;}
   }
+
+/* DARK MODE */
+
+body 
+{
+    background-color: white;
+    color: black;
+}
+
+#btnDarkMode
+{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: slidein;
+ 
+}  
+.dark-mode 
+{
+    background-color: rgb(36, 39, 53);
+    color: white;
+}
+
+
 
