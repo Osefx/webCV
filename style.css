@@ -14,10 +14,12 @@ header {
 
 #expHeader {
     background-image: url("backgroundindex.jpg") ;
+    text-align: center; 
     
 }
+
 #titreLogiciel {
-    padding-left: 35%;
+    text-align: center;
     background-image: url("backgroundindex.jpg")
     
 }
@@ -25,7 +27,7 @@ header {
 #gauche {}
 
 #droite {
-    padding-left: 10%;
+    padding-left: 0%;
 }
 
 footer {
@@ -94,6 +96,7 @@ body {
 #expbande
 {
     background-image: url("backgroundindex.jpg");
+    text-align: center;
 }
 
 .fa {
@@ -177,7 +180,7 @@ body {
   #chargementdebut
   {
       /*animation: chargement1 1s forwards;*/
-      animation: chargement1 1s forwards;
+      animation: chargement1 3s forwards;
       /*animation-iteration-count: 1;*/
   }
 
@@ -213,4 +216,13 @@ body
 }
 
 
+#navbar
+{
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+}
 
+.nav-item
+{
+    margin-right: 0.5cm;
+}

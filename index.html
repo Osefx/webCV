@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="JS_cv.js"></script>
   <title>Index</title>
@@ -18,28 +19,19 @@
 
 <!-- NAV-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <img src="N3G osef.PNG" alt="" width="02%">
-      <a class="navbar-brand" href="Index.html">-Accueil</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          
-          <li class="nav-item">
-            <a class="nav-link" href="Experience.html">Expériences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Formation.html">Formations</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          
-        </span>
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-sm bg-dark justify-content-center" id="navbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <button type="button" class="btn btn-outline-primary rounded-pill"><i class="d-inline bi bi-house-door" style="font-size: 1rem; color: cornflowerblue;"></i><a class="d-inline nav-link text-light" href="index.html">Accueil</a></button>
+    </li>
+    <li class="nav-item">
+     <button type="button" class="btn btn-outline-primary rounded-pill"><i class="d-inline bi bi-building" style="font-size: 1rem; color: cornflowerblue;"></i><a class="d-inline nav-link text-light" href="Experience.html">Expériences</a></button> 
+    </li>
+    <li class="nav-item">
+      <button type="button" class="btn btn-outline-primary rounded-pill"><i class="d-inline bi bi-book" style="font-size: 1rem; color: cornflowerblue;"></i><a class="d-inline nav-link text-light" href="Formation.html">Formation</a></button> 
+    </li>
+  </ul>
+</nav>
 
 <!-- NAV-->
 
@@ -47,7 +39,7 @@
 <br>
 <div id="btnDarkMode">
 
-<button type="button" class="btn btn-primary" onclick="myFunction()">dark mode</button>
+<button type="button" class="shadow btn btn-primary" onclick="myFunction()">dark mode</button>
 
 </div>
 <br>
@@ -55,7 +47,7 @@
 
 
 <!-- PHOTO NOM PRENOM ADRESSE BOUTON-->
-<div class="container" id="HASANCINCI">
+<div class="shadow container rounded-pill" id="HASANCINCI">
   <div class="row justify-content-md-center">
     <div class="col-sm-4">
       <p style="float: left;">
@@ -65,6 +57,7 @@
         <div class="col-md-auto">
           <h1 class="mb-0" id="droite">
             Hasan
+            <br>
             <span class="text-primary"> Cinci</span>
           </h1>
           
@@ -81,7 +74,7 @@
   </div>
 </div>
 <br>
-<button type="button" class="btn btn-primary" id="pdfbutton">
+<button type="button" class="shadow btn btn-primary rounded-pill" id="pdfbutton">
   <a href="https://drive.google.com/file/d/1RLmpglpeLqYv5jG1iKfCrxczbB_4-a_v/view?usp=sharing" download="newfilename" style="color: aliceblue;"">CV Hasan Cinci PDF</a>
 </button>
 <!-- PHOTO NOM PRENOM ADRESSE BOUTON-->
@@ -90,25 +83,25 @@
 
 <div class="container">
 
-  <h1 class="mb-0" id="titreLogiciel">
+  <h1 class="shadow mb-0 rounded-pill" id="titreLogiciel">
     Compétences :
     <span class="text-primary">Logiciels</span>
   </h1>
   <br>
   <div class="progress">
-    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">PHP</div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated text-nowrap" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">HTML</div>
   </div> <br>
   <div class="progress">
-    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JAVA</div>
+    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">JAVA</div>
   </div> <br>
   <div class="progress">
-    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">PYTHON</div>
+    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Pack OFFICE</div>
   </div> <br>
   <div class="progress">
     <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">SimpaPRO</div>
   </div> <br>
   <div class="progress">
-    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Lightroom</div>
+    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Lightroom</div>
   </div>
 
 </div>
@@ -118,7 +111,7 @@
 
 <div class="container">
 
-  <h1 class="mb-0" id="titreLogiciel">
+  <h1 class="shadow mb-0 rounded-pill" id="titreLogiciel">
 
     Compétences :
     <span class="text-primary">Langues</span>
@@ -144,8 +137,8 @@
 
 <div class="container">
 
-  <h1 class="mb-0" id="titreLogiciel">
-    <span class="text-primary">---------Loisirs---------</span>
+  <h1 class="shadow mb-0 rounded-pill" id="titreLogiciel">
+    <span class="text-primary">Loisirs</span>
   </h1>
 
 </div>
@@ -154,11 +147,11 @@
 <!-- LOISIRS -->
  
 
-
+<br>
 <div class="container" id="loisirs">
   <div class="row">
     <div class="col">
-            <div class="card text-dark bg-light mb-3" style="width: 18rem;" >
+            <div class="shadow card text-dark bg-light mb-3" style="width: 18rem;" >
         <img src="voyages.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Voyages</h5>
@@ -168,7 +161,7 @@
       </div>
     </div>
     <div class="col">
-        <div class="card text-dark bg-light mb-3" style="width: 18rem;">
+        <div class="shadow card text-dark bg-light mb-3" style="width: 18rem;">
           <img src="photographe.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Photographe</h5>
@@ -178,7 +171,7 @@
         </div>
     </div>
     <div class="col">
-      <div class="card text-dark bg-light mb-3" style="width: 18rem;">
+      <div class="shadow card text-dark bg-light mb-3" style="width: 18rem;">
         <img src="Sports-Transparent-File.png" class="card-img-top" alt="..." id="sportpng">
         <div class="card-body">
           <h5 class="card-title">Sports</h5>
